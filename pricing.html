@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing & 3D Websites | LocalWeb Forge</title>
+    <meta name="description" content="Affordable pricing plans for local business websites and premium 3D immersive experiences by LocalWeb Forge.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Bird on Branch (Global Left) -->
+    <div class="bird-branch-container">
+        <svg viewBox="0 0 300 150" class="bird-svg">
+            <!-- Branch -->
+            <path class="branch-path" d="M0,70 Q100,50 180,90" stroke="#4d2911" stroke-width="10" fill="none" stroke-linecap="round" />
+            <path class="branch-path" d="M50,60 Q70,40 60,30" stroke="#4d2911" stroke-width="6" fill="none" stroke-linecap="round" />
+            <circle class="branch-path" cx="60" cy="30" r="5" fill="#22c55e" /> <!-- Leaf -->
+            
+            <!-- Bird Group -->
+            <g class="bird-group">
+                <!-- Wings -->
+                <path class="wing wing-left" d="M165,60 Q150,40 160,30" fill="#4f46e5" />
+                <path class="wing wing-right" d="M195,60 Q210,40 200,30" fill="#4f46e5" />
+                
+                <circle cx="180" cy="65" r="25" fill="#6366f1" /> <!-- Body -->
+                <circle cx="180" cy="35" r="20" fill="#6366f1" /> <!-- Head -->
+                <path d="M175,40 L185,40 L180,50 Z" fill="#f59e0b" /> <!-- Beak -->
+                
+                <!-- Eyes -->
+                <g class="eyes">
+                    <circle cx="172" cy="30" r="5" fill="white" />
+                    <circle cx="188" cy="30" r="5" fill="white" />
+                    <circle class="pupil left-pupil" cx="172" cy="30" r="2.5" fill="black" />
+                    <circle class="pupil right-pupil" cx="188" cy="30" r="2.5" fill="black" />
+                </g>
+
+                <!-- Feathers/Tail -->
+                <path d="M160,75 L150,90 L170,85 Z" fill="#4f46e5" />
+            </g>
+        </svg>
+    </div>
+    <nav class="navbar scrolled">
+        <div class="container navbar-content">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="gradient-text">LocalWeb</span> Forge
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="pricing.html" class="active">Pricing</a></li>
+                    <li><a href="index.html#about">Why Us</a></li>
+                    <li><a href="index.html#process">Process</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <div class="slider round">
+                                <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <a href="https://wa.me/919142385537?text=Hello%20Harsh,%20I'm%20interested%20in%20starting%20a%20project!" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp Me</span>
+                    </a>
+                    <button class="mobile-toggle" id="mobile-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Navigation Overlay -->
+        <div class="mobile-nav" id="mobile-nav">
+            <ul class="mobile-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="index.html#about">Why Us</a></li>
+                <li><a href="index.html#process">Process</a></li>
+                <li class="mobile-theme-item">
+                    <span>Theme</span>
+                    <label class="theme-switch" for="checkbox-mobile">
+                        <input type="checkbox" id="checkbox-mobile" />
+                        <div class="slider round">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero" style="min-height: 60vh; padding: 180px 0 100px;">
+        <div class="day-night-cycle"></div>
+        <div class="stars"></div>
+        <div class="sun"></div>
+        <div class="moon"></div>
+        <div class="digital-waves"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Transparent Plans</span>
+                <h1>Forge Your <span class="gradient-text">Digital Value</span></h1>
+                <p>Simple, effective pricing for every stage of your local business growth.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3D Section Moved to Top -->
+    <section id="three-d" class="special-3d" style="padding-bottom: 20px;">
+        <div class="container">
+            <div class="three-d-card">
+                <div class="three-d-badge">PREMIUM UPGRADE</div>
+                <div class="three-d-content">
+                    <h2>Immersive <span class="gradient-text">3D Experiences</span></h2>
+                    <p>Stand out from every competitor with a cutting-edge 3D website. We use WebGL and Three.js to build interactive worlds for your brand.</p>
+                    <div class="price" style="text-align: left; margin-bottom: 2rem;">Starts at ₹60k+</div>
+                    <a href="https://wa.me/919142385537?text=Hi!%20I'm%20interested%20in%20the%20Premium%203D%20Experience%20(₹60k%2B).%20Can%20we%20discuss%20my%20project?" class="btn btn-primary">Forge a 3D World</a>
+                </div>
+                <div class="three-d-visual">
+                    <div class="floating-cube"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Inclusions Section -->
+    <section class="global-inclusions" style="padding: 40px 0;">
+        <div class="container">
+            <div class="inclusion-box" style="background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 24px; padding: 2.5rem; backdrop-filter: blur(10px);">
+                <div class="section-header" style="margin-bottom: 2rem; text-align: left;">
+                    <h2 style="font-size: 1.8rem;">Enjoy all this. <span class="gradient-text">At no extra cost.</span></h2>
+                    <p>Every plan we forge comes packed with these high-performance essentials.</p>
+                </div>
+                <div class="inclusion-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+                    <div class="inc-item" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; color: var(--text-color);"><i class="fas fa-shield-halved" style="color: var(--accent-color);"></i> Unlimited SSL security</div>
+                    <div class="inc-item" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; color: var(--text-color);"><i class="fas fa-globe" style="color: var(--accent-color);"></i> Free domain (Annual)</div>
+                    <div class="inc-item" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; color: var(--text-color);"><i class="fas fa-palette" style="color: var(--accent-color);"></i> Pro Templates</div>
+                    <div class="inc-item" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; color: var(--text-color);"><i class="fas fa-sync" style="color: var(--accent-color);"></i> Auto Backups</div>
+                    <div class="inc-item" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; color: var(--text-color);"><i class="fas fa-envelope" style="color: var(--accent-color);"></i> Email addresses</div>
+                    <div class="inc-item" style="display: flex; align-items: center; gap: 0.8rem; font-weight: 600; color: var(--text-color);"><i class="fas fa-bolt" style="color: var(--accent-color);"></i> Unlimited Traffic</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple <span class="gradient-text">Pricing</span> for Everyone</h2>
+                <p>Choose the perfect plan to grow your local business online.</p>
+            </div>
+            <div class="pricing-grid">
+
+                <!-- 10k Plan -->
+                <div class="pricing-card popular">
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">₹10k<span>/project</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 5 Custom Pages</li>
+                        <li><i class="fas fa-check"></i> Premium Branding & UI</li>
+                        <li><i class="fas fa-check"></i> WhatsApp Integration</li>
+                        <li><i class="fas fa-check"></i> Speed & Perf Optimization</li>
+                        <li><i class="fas fa-check"></i> Social Media Links</li>
+                        <li><i class="fas fa-check"></i> 3 Months Support</li>
+                    </ul>
+                    <a href="https://wa.me/919142385537?text=Hi%20Harsh,%20I'm%20interested%20in%20the%20Professional%20Plan%20(10k)." class="btn btn-primary">Most Popular</a>
+                </div>
+
+                <!-- 15k Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">₹20k<span>/project</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 10 Pages / E-commerce</li>
+                        <li><i class="fas fa-check"></i> CMS Integration</li>
+                        <li><i class="fas fa-check"></i> WhatsApp Integration</li>
+                        <li><i class="fas fa-check"></i> Chat Support Feature</li>
+                        <li><i class="fas fa-check"></i> Custom API Integrations</li>
+                        <li><i class="fas fa-check"></i> Advanced SEO & Tracking</li>
+                        <li><i class="fas fa-check"></i> Google Business Setup</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <a href="https://wa.me/919142385537?text=Hi%20Harsh,%20I'm%20interested%20in%20the%20Enterprise%20Plan%20(20k)." class="btn btn-secondary">Go Elite</a>
+                </div>
+
+                <!-- Custom Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Your Choice</h3>
+                        <div class="subtitle" style="color: var(--accent-color); font-weight: 700; margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Your Price, Your Value</div>
+                        <div class="price">Discussion</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Tailored for Your Vision</li>
+                        <li><i class="fas fa-check"></i> WhatsApp Integration</li>
+                        <li><i class="fas fa-check"></i> Chat Support Feature</li>
+                        <li><i class="fas fa-check"></i> Custom Web Applications</li>
+                        <li><i class="fas fa-check"></i> Advanced Animations & 3D</li>
+                        <li><i class="fas fa-check"></i> Personalized Marketing Integration</li>
+                        <li><i class="fas fa-check"></i> Unlimited Features</li>
+                        <li><i class="fas fa-check"></i> Priority Lifetime Support</li>
+                    </ul>
+                    <a href="https://wa.me/919142385537?text=Hi%20Harsh,%20I'd%20like%20to%20discuss%20a%20price%20that%20reflects%20the%20value%20I%20need%20for%20my%20business." class="btn btn-primary">Negotiate Price</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hosting" class="pricing" style="background: rgba(99, 102, 241, 0.02); padding-top: 60px;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Hosting Partnership</span></h2>
+                <p>We partner with <strong>Hostinger</strong> to provide your business with industry-leading speed, security, and 99.9% uptime.</p>
+                
+                <!-- Simplified Duration Selector -->
+                <div class="duration-selector-wrapper" style="margin-top: 2rem; max-width: 600px;">
+                    <h3 style="margin-bottom: 1.5rem; font-size: 1.25rem;">Select Your Preferred Hosting Duration</h3>
+                    <div class="duration-labels">
+                        <span class="dur-label">1 Mo</span>
+                        <span class="dur-label">12 Mo</span>
+                        <span class="dur-label">24 Mo</span>
+                        <span class="dur-label">48 Mo</span>
+                    </div>
+                    <input type="range" min="0" max="3" value="0" class="duration-slider" id="hosting-duration-slider">
+                    <div class="selected-duration-badge" style="margin-bottom: 2rem;">Selected: <span id="current-duration-text">1 Month</span></div>
+                    
+                    <a href="#" class="btn btn-primary" id="hosting-consult-btn" style="width: 100%; padding: 1.2rem;">
+                        <i class="fab fa-whatsapp"></i> Discuss This Hosting Plan
+                    </a>
+                    <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">We'll help you set up the perfect Hostinger environment at the best available rates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-cta">
+                    <h2 class="footer-heading">LET'S MAKE IT <br> HAPPEN NOW</h2>
+                    <div class="footer-cta-btns">
+                        <a href="https://wa.me/919142385537?text=Hello%20Harsh,%20I'm%20ready%20to%20make%20it%20happen!" class="btn btn-primary">WhatsApp Me</a>
+                    </div>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="link-column">
+                        <h4>NAVIGATE</h4>
+                        <ul>
+                            <li><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#services">Services</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="index.html#about">Why Us</a></li>
+                            <li><a href="index.html#process">Process</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>RESOURCES</h4>
+                        <ul>
+                            <li><a href="mailto:cbook678harsh@gmail.com">Email Us</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <div class="copyright">
+                    <span class="muted">ALL RIGHTS RESERVED</span>
+                    <h3>&copy; <span id="year">2026</span> LOCALWEB FORGE</h3>
+                </div>
+                <div class="local-time">
+                    <span class="muted">LOCAL TIME</span>
+                    <div id="clock">00:00:00 PM</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
